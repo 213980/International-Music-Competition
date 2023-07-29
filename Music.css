@@ -1,0 +1,38 @@
+/* font type for document */
+body{
+    font-family:Verdana, sans-serif;
+    text-align:center;
+}
+
+/* all hr */
+hr {
+    height: 20px;
+    width: 70%;
+    background-color: green;
+}
+
+#sourceOfInfo{
+    font-style:italic;
+    font-size:0.6em:
+}
+span.funny{
+   color:#00ff00; 
+   text-shadow:2px 2px 2px rgba(0, 255, 0, 0.6);
+   font-size:2em;
+   font-family:"Brush Script MT", cursive;
+}
+table{
+    border-collapse: collapse;
+    width: 70%;
+    margin: auto;
+}
+caption{
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+td{
+    padding: 30px;
+    text-align:center;
+}
+

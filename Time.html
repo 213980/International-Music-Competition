@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Time</title>
+</head>
+<body>
+    <h1>Current Date & Time</h1>
+    <script>
+        now = new Date();
+        localtime = now.toString();
+        utctime = now.toGMTString();
+        document.write("<p><strong>Local time:</strong>" + localtime + "</p>");
+        document.write("<p><strong>UTC time:</strong>" + utctime + "</p>");
+        hours = now.getHours();
+        mins = now.getMinutes();
+        secs = now.getSeconds();
+    </script>
+</body>
+</html>
